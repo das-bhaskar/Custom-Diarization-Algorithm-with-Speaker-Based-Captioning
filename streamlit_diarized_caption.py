@@ -116,7 +116,7 @@ def diarize_audio(audio_file, csv_path, output_dir, window_size=0.5, overlap=0.2
 
     # Save segments as WAV files and transcribe them
     results = []
-    model = whisper.load_model("medium")
+    model = whisper.load_model("medium.en")
     for idx, (start, end, speaker) in enumerate(segments):
         segment_file_path = os.path.join(output_dir, f"segment_{idx}.wav")
         torchaudio.save(segment_file_path, audio[:, int(start * sample_rate):int(end * sample_rate)], sample_rate)
