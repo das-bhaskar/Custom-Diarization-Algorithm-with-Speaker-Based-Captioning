@@ -1,9 +1,3 @@
-<div align="center">
-  <img src="https://placehold.it/200x50/2ecc71/ffffff?text=Audio+Diarization" alt="Audio Diarization Logo">
-</div>
-
----
-
 # <span style="color:#2ecc71;">Audio Diarization and Transcription</span>
 
 ## <span style="color:#3498db;">Introduction</span>
